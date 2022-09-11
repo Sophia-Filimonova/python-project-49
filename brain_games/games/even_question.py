@@ -8,6 +8,6 @@ def even_one_question():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    print('Question: ', random_number)
+    print(f'Question: {random_number}')
     user_answer = prompt.string('Your answer: ')
     return (correct_answer, user_answer)
