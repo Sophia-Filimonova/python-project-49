@@ -6,7 +6,7 @@
 
 
 ссылка на аскинему brain-even:
-https://asciinema.org/a/MjRP9486S4UeF5MLpA7jB5GsF
+<a href="https://asciinema.org/a/MjRP9486S4UeF5MLpA7jB5GsF" target="_blank"><img src="https://asciinema.org/a/MjRP9486S4UeF5MLpA7jB5GsF.svg" /></a>
 
 ссылка на аскинему brain-сalc:
 https://asciinema.org/a/p6yhiA30fPUa04HVW42N923AZ
