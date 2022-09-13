@@ -5,17 +5,26 @@
 Проект содержит 5 мини-игр, которые запускаются командами: brain-even ("Проверка на четность"), brain-сalc ("Калькулятор"), brain-gcd ("Наибольший общий делитель"), brain-progression ("Арифметическая прогрессия"), brain-prime ("Простое ли число?"). Чтобы выиграть, необходимо правильно ответить на 3 вопроса.
 
 
-ссылка на аскинему brain-even:
+Аскинема brain-even:
+
 <a href="https://asciinema.org/a/MjRP9486S4UeF5MLpA7jB5GsF" target="_blank"><img src="https://asciinema.org/a/MjRP9486S4UeF5MLpA7jB5GsF.svg" /></a>
 
-ссылка на аскинему brain-сalc:
-https://asciinema.org/a/p6yhiA30fPUa04HVW42N923AZ
 
-ссылка на аскинему brain-gcd:
-https://asciinema.org/a/6eFUqFMMNMrB0ogUqMDCnhaW6
+Аскинема brain-сalc:
 
-ссылка на аскинему brain-progression:
-https://asciinema.org/a/9cFuG1dDOOFRNmn2RNIMXcV66
+<a href="https://asciinema.org/a/p6yhiA30fPUa04HVW42N923AZ" target="_blank"><img src="https://asciinema.org/a/p6yhiA30fPUa04HVW42N923AZ.svg" /></a>
 
-ссылка на аскинему brain-prime:
-https://asciinema.org/a/b9IESSmTvSRslto3HN9Fwv7zF
+
+Аскинема brain-gcd:
+
+<a href="https://asciinema.org/a/6eFUqFMMNMrB0ogUqMDCnhaW6" target="_blank"><img src="https://asciinema.org/a/6eFUqFMMNMrB0ogUqMDCnhaW6.svg" /></a>
+
+
+Аскинема brain-progression:
+
+<a href="https://asciinema.org/a/9cFuG1dDOOFRNmn2RNIMXcV66" target="_blank"><img src="https://asciinema.org/a/9cFuG1dDOOFRNmn2RNIMXcV66.svg" /></a>
+
+
+Аскинема brain-prime:
+
+<a href="https://asciinema.org/a/b9IESSmTvSRslto3HN9Fwv7zF" target="_blank"><img src="https://asciinema.org/a/b9IESSmTvSRslto3HN9Fwv7zF.svg" /></a>
