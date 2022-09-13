@@ -1,8 +1,10 @@
-import prompt
 from random import randint
 
 
-def progr_one_question():
+RULES_OF_GAME = 'What number is missing in the progression?'
+
+
+def generate_question():
     progr_beginning = randint(1, 20)
     progr_step = randint(2, 5)
     index_miss_number = randint(1, 10)
@@ -21,5 +23,4 @@ def progr_one_question():
             i += 1
     progr_string = progr_string.strip()
     print(f'Question: {progr_string}')
-    user_answer = prompt.integer('Your answer: ')
-    return (correct_answer, user_answer)
+    return correct_answer

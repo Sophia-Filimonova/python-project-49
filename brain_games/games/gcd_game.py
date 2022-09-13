@@ -1,5 +1,7 @@
-import prompt
 from random import randint
+
+
+RULES_OF_GAME = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(number1, number2):
@@ -11,10 +13,9 @@ def gcd(number1, number2):
     return number1
 
 
-def gcd_one_question():
+def generate_question():
     number1 = randint(2, 50)
     number2 = randint(2, 50)
     correct_answer = gcd(number1, number2)
     print(f'Question: {number1} {number2}')
-    user_answer = prompt.integer('Your answer: ')
-    return (correct_answer, user_answer)
+    return correct_answer
