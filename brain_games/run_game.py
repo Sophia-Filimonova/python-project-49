@@ -1,21 +1,16 @@
 import prompt
 
 
-QUESTIONS_AMOUNT = 3
+ROUNDS_AMOUNT = 3
 
 
-def welcome_user():
+def run_game(game):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
-
-
-def general_logic(module):
-    user_name = welcome_user()
-    print(module.RULES_OF_GAME)
-    for n in range(QUESTIONS_AMOUNT):
-        correct_answer = module.generate_question()
+    user_name = prompt.string('May I have your name? ')
+    print(f'Hello, {user_name}!')
+    print(game.RULES)
+    for _ in range(ROUNDS_AMOUNT):
+        correct_answer = game.generate_question()
         user_answer = prompt.string('Your answer: ')
         if str(correct_answer) == user_answer:
             print('Correct!')

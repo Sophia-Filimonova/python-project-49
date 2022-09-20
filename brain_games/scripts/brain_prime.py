@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import brain_games.games.prime_game
-from brain_games.general_logic import general_logic
+from brain_games.games import prime
+from brain_games.run_game import run_game
 
 
 def main():
-    general_logic(brain_games.games.prime_game)
+    run_game(prime)
 
 
 if __name__ == '__main__':
