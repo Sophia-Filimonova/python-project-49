@@ -18,5 +18,5 @@ def generate_question():
         else:
             progression.append(str(current_number))
     progr_string = " ".join(progression)
-    print(f'Question: {progr_string}')
-    return correct_answer
+    question = f'Question: {progr_string}'
+    return (str(correct_answer), question)

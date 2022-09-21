@@ -10,5 +10,5 @@ def generate_question():
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    print(f'Question: {random_number}')
-    return correct_answer
+    question = f'Question: {random_number}'
+    return (correct_answer, question)
