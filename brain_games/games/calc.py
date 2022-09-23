@@ -16,5 +16,5 @@ def generate_question():
         first_number = randint(1, 25)
         second_number = randint(1, 10)
         correct_answer = first_number * second_number
-    question = f'Question: {first_number} {operator} {second_number}'
+    question = f'{first_number} {operator} {second_number}'
     return (str(correct_answer), question)

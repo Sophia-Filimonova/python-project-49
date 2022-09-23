@@ -17,5 +17,5 @@ def generate_question():
     number1 = randint(2, 50)
     number2 = randint(2, 50)
     correct_answer = gcd(number1, number2)
-    question = f'Question: {number1} {number2}'
+    question = f'{number1} {number2}'
     return (str(correct_answer), question)
